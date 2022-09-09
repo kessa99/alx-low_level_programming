@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - starting point of our c
+*main - return void
 *
 *return: 0 (succes)
 */
