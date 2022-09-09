@@ -10,6 +10,7 @@ int main(void)
 	float floatType;
 	double doubleType;
 	char charType;
+
 	printf("the size of int is %zu bytes\n", sizeof(intType));
 	printf("the size of char is %zu bytes\n", sizeof(charType));
 	printf("the size of float is %zu bytes\n", sizeof(floatType));
