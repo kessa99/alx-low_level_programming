@@ -18,7 +18,11 @@ unsigned long long uns_long;
 unsigned short uns_short;
 unsigned int uns_int;
 unsigned char uns_char;
+long int lg_int;
+long long int lg_lg_int;
 
+printf("the size of long int is %zu bytes \n", sizeof(lg_int));
+printf("the size of long long int %zu bytes \n", sizeof(lg_lg_int));
 printf("the size of unsigned long long is %zu bytes\n", sizeof(uns_long));
 printf("the size of long double is %zu bytes \n", sizeof(long_double));
 printf("the size of unsigned long long is %zu bytes\n", sizeof(uns_short));
