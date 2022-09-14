@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * main - print _putchar
@@ -7,6 +7,7 @@
 */
 int main(void)
 {
-	printf("_putchar");
+	char c = _putchar;
+	putchar(c);
 	return (0);
 }
