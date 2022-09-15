@@ -14,7 +14,6 @@ printf("Infinite loop incoming :(\n");
 i = 0;
 /**
  * this is the infinite loop
- * 10 is the output condition
  */
 while (i < 10)
 {
