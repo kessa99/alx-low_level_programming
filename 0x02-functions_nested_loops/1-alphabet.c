@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 'a' ; i <= 'z' ; i++)
 	{
-		print_alphabet(i)
+		print_alphabet(i);
 	}
 	return (0);
 }
