@@ -15,7 +15,7 @@ i = 0;
 /**
  * this is the infinite loop
  */
- while (i < 10)
+while (i < 10)
 {
 putchar(i);
 }
