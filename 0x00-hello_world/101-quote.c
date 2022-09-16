@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * man - prints exactl "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+ * man - prints exactl "and that piece of art is useful" - Dorls
+ *eKorpar, 2015-10-19"
  *
  * followed by a new line, to the standard output
  *
