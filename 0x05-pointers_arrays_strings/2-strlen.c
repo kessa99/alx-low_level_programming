@@ -3,7 +3,7 @@
 
 /**
  * _strlen - returns the lenght
- *
+ * @s: the parameter
  * Return: 0 (sucess)
 */
 
