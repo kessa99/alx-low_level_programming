@@ -15,15 +15,5 @@ int main(void)
 	str = "My first strlen!";
 	len = _strlen(str);
 	printf("%d\n", len);
-
-	str = "Lorem ipsum...";
-	len = _strlen(str);
-	printf("%d\n", len);
-	str = "";
-	len = _strlen(str);
-	printf("%d\n", len);
-	str = "Holberton!";
-	len = _strlen(str);
-	printf("%d\n", len);
 	return (0);
 }
