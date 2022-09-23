@@ -7,3 +7,4 @@ int _isalpha(int c);
 int print_sign(int a);
 int _abs(int a);
 int print_last_digit(int a);
+void jack_bauer(void);
