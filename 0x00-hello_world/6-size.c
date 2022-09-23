@@ -1,21 +1,16 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
- * Return: 0 (success)
+ * Return: 0 (Sucess)
 */
+
 int main(void)
 {
-int intType;
-float floatType;
-char charType;
-long int lg_int;
-long long int lg_lg_int;
-
-printf("size of a long int: %zu byte(s)\n", sizeof(lg_int));
-printf("size of a long long int: %zu byt(s)\n", sizeof(lg_lg_int));
-printf("size of an int: %zu byt(s)\n", sizeof(intType));
-printf("size of a char: %zu byt(s)\n", sizeof(charType));
-printf("the size of float: %zu byt(s)\n", sizeof(floatType));
-return (0);
+	printf("Size of char: %zu\n", sizeof(char));
+	printf("Size of int: %zu\n", sizeof(int));
+	printf("Size of long int: %zu\n", sizeof(long int));
+	printf("Size of long long: %zu\n", sizeof(char));
+	printf("Size of float: %zu\n", sizeof(char));
 }
