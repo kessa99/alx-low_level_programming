@@ -17,5 +17,6 @@ int main(void)
 		putchar(' ');
 	}
 	putchar(9 + '0');
+	printf("\n");
 	return (0);
 }
