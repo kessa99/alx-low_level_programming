@@ -13,11 +13,12 @@ int main(void)
 	char s2[] = "world!\n";
 	char *ptr;
 
-	printf("%s\n", s1);
-	printf("%s", s2);
+	_putchar(s1[98]);
+	_putchar('\n');
+	_putchar(*s2);
 	ptr = _strcat(s1, s2);
-	printf("%s", s1);
-	printf("%s", s2);
-	printf("%s", ptr);
+	_putchar(s1[98]);
+	_putchar(*s2);
+	_putchar(*ptr);
 	return (0);
 }
