@@ -5,7 +5,6 @@
  * simple_print_buffer - prints buffer in hexa
  * @buffer: the address of memory to print
  * @size: the size of the memory to print
- *
  * Return: Nothing.
  */
 void simple_print_buffer(char *buffer, unsigned int size)
@@ -17,16 +16,16 @@ void simple_print_buffer(char *buffer, unsigned int size)
 	{
 		if (i % 10)
 		{
-			putchar(' ');
+			printf(" ");
 		}
 		if (!(i % 10) && i)
 		{
-			_putchar('\n');
+			printf("\n");
 		}
 		printf("0x%02x", buffer[i]);
 		i++;
 	}
-	_putchar('\n');
+	printf("\n");
 }
 
 /**
@@ -37,15 +36,12 @@ void simple_print_buffer(char *buffer, unsigned int size)
 int main(void)
 {
 	char buffer[98] = {0x00};
-	int i;
 
 	simple_print_buffer(buffer, 98);
 	_memset(buffer, 0x01, 95);
-	for (i = 0 ; i < 49 ; i++)
-	{
-		_putchar('-');
-	}
-	_putchar('\n');
-	simple_print_buffer(buffer, 98);    
+	printf("-------------------------------------------------\n");
+	printf("\n");
+	simple_print_buffer(buffer, 98);
+	printf("\n");
 	return (0);
 }
