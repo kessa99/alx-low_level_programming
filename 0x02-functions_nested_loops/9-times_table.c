@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 
 /**
  * times_table - print table of 9
@@ -20,7 +20,7 @@ void times_table(void)
 			if (k > 10)
 			{
 				_putchar((k / 10) + '0');
-				_putchqr((k % 10) + '0');
+				_putchar((k % 10) + '0');
 			}
 			else
 			{
