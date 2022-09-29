@@ -1,28 +1,26 @@
 #include "main.h"
 
 /**
- *jack_bauer - print the hour of jack
+ * jack_bauer - print the time in a day
  *
- * Return:0 (sucess)
+ * Return: void
 */
 
 void jack_bauer(void)
 {
-	int i = 10;
+	int i;
+	int j;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = 0 ; i < 25 ; i++)
 	{
-		_putchar(0 + '0');
-		_putchar(0 + '0');
-		_putchar(':');
-		_putchar((i / 10) + '0');
-		_putchar((i % 10) + '0');
-		_putchar('\n');
-		_putchar(2 + '0');
-		_putchar(3 +'0');
-		_putchar(':');
-		_putchar(5 + '0');
-		_putchar((i % 10) + '0');
+		for (j = 0 ; j < 60 ; j++)
+		{
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
+			_putchar(':');
+		}
+		_putchar((j / 10) + '0');
+		_putchar((k % 10) + '0');
 		_putchar('\n');
 	}
 
