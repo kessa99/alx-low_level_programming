@@ -24,10 +24,11 @@ void times_table(void)
 			}
 			else
 			{
+				_putchar(' ');
 				_putchar(k + '0');
 			}
 			_putchar(',');
-			_putchar('\t');
+			_putchar(' ');
 		}
 		k = i * 9;
 		if (k >= 10)
@@ -37,6 +38,7 @@ void times_table(void)
 		}
 		else
 		{
+			_putchar(' ');
 			_putchar(k + '0');
 		}
 		_putchar('\n');
