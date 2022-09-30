@@ -8,9 +8,9 @@
 
 void times_table(void)
 {
-	int i;
-	int j;
-	int k;
+	char i;
+	char j;
+	char k;
 
 	for (i = 0 ; i <= 8 ; i++)
 	{
