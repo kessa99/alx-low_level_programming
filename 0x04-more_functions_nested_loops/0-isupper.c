@@ -1,25 +1,25 @@
 #include "main.h"
 
 /**
- * _isupper - function for uppercase character
- * @c: integer
- * Return:0 (sucess)
+ * _isupper - print if is upper or not
+ * @c: integer for the entry
+ * Return: 0 (sucess)
 */
 
 int _isupper(int c)
 {
 	int i;
 
-	for (i = 'A' ; i <= 'Z' ; i++)
+	for (i = 'a' ; i <= 'z' ; i++)
 	{
-		if (c == i)
+		if (i == c)
 		{
 			return (0);
 		}
 		else
 		{
-			return (0);
+			return (1);
 		}
 	}
-return (0);
+	return (0);
 }
