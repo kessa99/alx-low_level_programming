@@ -4,7 +4,7 @@
  * main - print name
  * @argc: argc parameter
  * @argv:: parameter
- * Return:0 
+ * Return:0
 */
 int main(int argc __attribute__((unused)), char *argv[])
 {
