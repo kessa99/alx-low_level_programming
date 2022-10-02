@@ -1,1 +1,1 @@
-Begin the C progragramm 
+All to know on arg and argv

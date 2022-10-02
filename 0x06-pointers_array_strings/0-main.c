@@ -12,13 +12,26 @@ int main(void)
 	char s1[98] = "Hello ";
 	char s2[] = "world!\n";
 	char *ptr;
+	int i;
 
-	_putchar(s1[98]);
+	for (i = 0 ; i < 6 ; i++)
+	{
+		_putchar(s1[i]);
+	}
 	_putchar('\n');
-	_putchar(*s2);
+	for (i = 0 ; i < 7 ; i++)
+	{
+		_putchar(s2[i]);
+	}
 	ptr = _strcat(s1, s2);
-	_putchar(s1[98]);
-	_putchar(*s2);
+	for (i = 0 ; i < 6 ; i++)
+	{
+		_putchar(s1[i]);
+	}
+	for (i = 0 ; i < 7 ; i++)
+	{
+		_putchar(s2[i]);
+	}
 	_putchar(*ptr);
 	return (0);
 }
