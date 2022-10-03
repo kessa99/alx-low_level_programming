@@ -10,7 +10,6 @@
 int main(int argc, char *argv[])
 {
 	int res = 0, a, i, j, k;
-	int sum;
 
 	if (argc == 1)
 		printf("0\n");
@@ -22,14 +21,14 @@ int main(int argc, char *argv[])
 			if (argv[i][j] > '9' || argv[i][j] < '0')
 			{
 				printf("%s\n", "Error");
-			 return (1);
+				return (1);
 			}
 		}
 	}
 	for (k = 1 ; k < argc ; k++)
 	{
 		a = atoi(argv[k]);
-		result += a;
+		res += a;
 	}
 	printf("%d\n", res);
 	return (0);
