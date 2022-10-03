@@ -28,6 +28,6 @@ int main(int argc, char *argv[])
 		a = atoi(argv[k]);
 		result += a;
 	}
-	printf("%d\n", sum);
+	printf("%d\n", res);
 	return (0);
 }
