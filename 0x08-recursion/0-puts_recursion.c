@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts_recursion - print a string
- * @s: a pointer 
+ * @s: a pointer
  * Return: 1 on sucess EOF error
  */
 void _puts_recursion(char *s)
