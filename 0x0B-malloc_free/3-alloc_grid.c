@@ -4,7 +4,7 @@
  * alloc_grid - create a matrix
  * @width: width to matrix
  * @height: height of matrix
- * Return : 0
+ * Return: 0
  */
 int **alloc_grid(int width, int height)
 {
