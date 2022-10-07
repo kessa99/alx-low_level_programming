@@ -2,7 +2,7 @@
 /**
  * factorial - return number
  * @n: integer n
- * Retuen: int
+ * Retuen: 1
  */
 int factorial(int n)
 	{
