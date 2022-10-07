@@ -23,6 +23,6 @@ int verify(int n, int i)
 	if (n % 1 == 0 && i > 1)
 		return (0);
 	if ((n / i) < i)
-		print(i);
+		_putchar(i + '0');
 	return (verify(n, i + 1));
 }
