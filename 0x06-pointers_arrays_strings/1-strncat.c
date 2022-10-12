@@ -3,7 +3,8 @@
  * _strncat - concatenate two strings
  * @dest: dest value
  * @src: source value
- * @n:parameter to compare index 
+ * @n:parameter to compare index
+ *
  * Return: returns new concatenated string
  */
 
