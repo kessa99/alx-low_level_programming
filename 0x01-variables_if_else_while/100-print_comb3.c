@@ -25,8 +25,6 @@ int main(void)
 			printf(" ");
 		}
 	}
-	//putchar((89 / 10) + '0');
-	//putchar((89 % 10) + '0');
 	putchar((89 / 10) + '0');
 	putchar((89 % 10) + '0');
 	printf("\n");
