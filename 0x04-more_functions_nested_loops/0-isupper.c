@@ -15,10 +15,12 @@ int _isupper(int c)
 		if (i == c)
 		{
 			return (1);
+			break;
 		}
 		else
 		{
 			return (0);
+			break;
 		}
 	}
 	return (0);
