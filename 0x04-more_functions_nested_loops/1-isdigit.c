@@ -10,16 +10,16 @@ int _isdigit(int c)
 {
 	int i;
 
-	for (i = 0 ; i < 9 ; i++)
+	for (i = 'a' ; i <= 'z' ; i++)
 	{
 		if (c == i)
+		{
+			return (0);
+		}
+		else
 		{
 			return (1);
 		}
 	}
-	if (c != 0)
-	{
-		return (0);
-	}
-	return (0);
+return (0);
 }
