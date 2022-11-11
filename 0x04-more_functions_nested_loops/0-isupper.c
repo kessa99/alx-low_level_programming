@@ -3,12 +3,12 @@
 /**
  * _isupper - print if is upper or not
  * @c: integer for the entry
- * Return: 0 (sucess)
+ * Return: 1 for sucess 0 for failed
 */
 
 int _isupper(int c)
 {
-	int i;
+	char i;
 
 	for (i = 'A' ; i <= 'Z' ; i++)
 	{
