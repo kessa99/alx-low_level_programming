@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * more_numbers - print 10 times numbers 0 to 14
  *
@@ -25,6 +25,6 @@ void more_numbers(void)
 				_putchar(i + '0');
 			}
 		}
-	_putchar('\n');
+	printf("\n");
 	}
 }
