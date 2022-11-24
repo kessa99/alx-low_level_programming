@@ -8,18 +8,12 @@
 
 int _isdigit(int c)
 {
-	int i;
-
-	for (i = 'a' ; i <= 'z' ; i++)
+	if (c >= '0' && c <= '9')
 	{
-		if (c == i)
-		{
-			return (0);
-		}
-		else
-		{
-			return (1);
-		}
+		return (1);
 	}
-return (0);
+	else
+	{
+		return (0);
+	}
 }
