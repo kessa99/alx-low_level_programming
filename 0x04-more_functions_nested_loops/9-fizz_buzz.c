@@ -4,7 +4,7 @@
 /**
  * main - fizzBuzz
  *
- * Return : 0
+ * Return: 0
 */
 
 int main(void)
@@ -31,5 +31,6 @@ int main(void)
 		}
 		printf(" ");
 	}
+	printf("\n");
 return (0);
 }
