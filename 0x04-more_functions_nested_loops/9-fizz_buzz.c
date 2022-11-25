@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - fizzBuzz
@@ -6,43 +7,29 @@
  * Return : 0
 */
 
-void main(void)
+int main(void)
 {
-	int i, j;
-	char c[4] = "Fizz";
-	char d[4] = "Buzz";
-	char e[8] = "FizzBuzz";
+	int i;
 
 	for (i = 1 ; i <= 100 ; i++)
 	{
 		if (i % 3 == 0)
 		{
-			for (j = 0 ; j < 4 ; j++)
-			{
-				_putchar(c[j]);
-			}
-			_putchar(' ');
+			printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-			for (j = 0 ; j < 4 ; j++)
-			{
-				_putchar(d[j]);
-			}
-			_putchar (' ');
+			printf("Buzz");
 		}
-		else if (i % 3 == 0 || i % 5 == 0)
+		else if (i % 15 == 0)
 		{
-			for (j = 0 ; j < 8 ; j++)
-			{
-				_putchar(e[j]);
-			}
-			_putchar(' ');
+			printf("fizzBuzz");
 		}
 		else
 		{
-			_putchar(i + '0');
-			_putchar(' ');
+			printf("%d", i);
 		}
+		printf(" ");
 	}
+return (0);
 }
