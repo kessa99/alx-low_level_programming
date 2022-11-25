@@ -12,17 +12,17 @@ void print_diagonal(int n)
 	int i;
 	int j;
 
-	if (n == 0 || n < 0)
+	if (n <= 0)
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 	for (i = 1 ; i <= n ; i++)
 	{
 		for (j = 1 ; j <= i ; j++)
-		{
-			putchar('\/');
-		}
-	putchar('\n');
+			_putchar(' ');
+		_putchar('\\');
+
+	_putchar('\n');
 	}
 }
 
