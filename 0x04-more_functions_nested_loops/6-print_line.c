@@ -8,26 +8,16 @@
 
 void print_line(int n)
 {
-	char c[10] = "----------";
+	char c[] = "--------------------------------------------";
 	int i;
 
-	if (n == 0 || n == -4)
+	if (n <= 0)
 	{
 		_putchar(' ');
 	}
-	if (n == 2)
+	for (i = 0; i < n; i++)
 	{
-		for (i = 0 ; i < 2 ; i++)
-		{
-			_putchar(c[i]);
-		}
-	}
-	if (n == 10)
-	{
-		for (i = 0 ; i < 10 ; i++)
-		{
-			_putchar(c[i]);
-		}
+		_putchar(c[i]);
 	}
 	_putchar('\n');
 }
