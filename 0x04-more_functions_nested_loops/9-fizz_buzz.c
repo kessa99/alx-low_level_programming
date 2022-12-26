@@ -27,9 +27,10 @@ int main(void)
 		}
 		else
 		{
-			_putchar(i + '0');
+			printf("%d", i);
 		}
-		_putchar('\t');
+		printf(" ");
 	}
+	printf("\n");
 return (0);
 }
