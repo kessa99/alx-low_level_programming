@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - fizzBuzz
@@ -27,7 +27,7 @@ int main(void)
 		}
 		else
 		{
-			_putchar(i + '0');
+			_putchar((i / 10) + '0');
 		}
 		_putchar('\t');
 	}
