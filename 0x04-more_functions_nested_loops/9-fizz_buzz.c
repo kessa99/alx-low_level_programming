@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry piont
@@ -18,7 +18,14 @@ int main(void)
 		else if (i % 5 == 0)
 			printf("Buzz ");
 		else
+<<<<<<< HEAD
+		{
+			_putchar((i / 10) + '0');
+		}
+		_putchar('\t');
+=======
 			printf("%d ", i);
+>>>>>>> 8aaab79079a38711d34e00c6119604d2f9c74866
 	}
 	printf("Buzz\n");
 
