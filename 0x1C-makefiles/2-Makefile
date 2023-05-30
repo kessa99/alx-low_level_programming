@@ -2,6 +2,7 @@ CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c = .o)
 NAME = school
+.PHONY: all clean
 
 all: $(NAME)
 
@@ -13,6 +14,5 @@ $(NAME): $(OBJ)
 	@echo $(CC) -c -o $@ @<
 	$(CC) -c -o $@ @<
 
-.PHONY: clean
 clean:
 	rm -f $(OBJ) $(NAME)
