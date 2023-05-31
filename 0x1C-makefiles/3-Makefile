@@ -1,0 +1,38 @@
+# initialisation of all variable
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC: %.c = %.o)
+NAME = school
+
+all : $(NAME)
+
+$(NAME) : $(OBJ)
+	@echo $(CC) $^ -o $@
+	$(CC) $^ -o $@
+
+%.o : %.c
+	@echo $(CC) -c -o $@ $<
+	$(CC) -c -o $@ $<
+
+clean :
+	@echo "$(RM) *~ $(NAME)"
+	$(RM) *.swp
+	$(RM) *.swo
+	$(RM) *.swx
+	$(RM) $(NAME)
+
+oclean :
+	@echo "$(RM) $(OBJ)"
+	$(RM) *.o
+
+fclean:
+	@echo "$(RM) *~ $(NAME)"
+	$(RM) *.swp
+	$(RM) *.swo
+	$(RM) *.swx
+	$(RM) *.o
+	$(RM) $(NAME)
+
+re: 
+	@echo "$(RM) $(OBJ)"
+	clean all
