@@ -1,0 +1,40 @@
+# initialisation of all variable
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC: %.c = %.o)
+NAME = school
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+all : $(NAME)
+
+$(NAME) : $(OBJ)
+	@echo $(CC) $(CFLAGS)	$^ -o $@
+	$(CC) $(CFLAGS)	$^ -o $@
+
+%.o : %.c
+	@echo $(CC)  $(CFLAGS)	-c -o $@ $<
+	$(CC) $(CFLAGS)	-c -o $@ $<
+
+clean :
+	@echo "$(RM) *~ $(NAME)"
+	$(RM) *.swp
+	$(RM) *.swo
+	$(RM) *.swx
+	$(RM) $(NAME)
+
+oclean :
+	@echo "$(RM) $(OBJ)"
+	$(RM) *.o
+
+fclean:
+	@echo "$(RM) *~ $(NAME)"
+	$(RM) *.swp
+	$(RM) *.swo
+	$(RM) *.swx
+	$(RM) *.o
+	$(RM) $(NAME)
+
+re:
+	@echo "$(RM) $(OBJ)"
+	clean all
+
